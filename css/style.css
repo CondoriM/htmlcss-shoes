@@ -20,11 +20,48 @@
 
 .foto_text{
     position: absolute;
+    text-align: center;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
 }
 
+.text{
+    width: 85%;
+    margin: auto;
+    font-family: 'Dela Gothic One', cursive;
+    word-spacing: 30px;
+}
+
+/* ancora articoli*/
+
+.ancor > ul{
+    text-decoration: none;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+.ancor li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 1.3rem;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.ancor a{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);;
+    font-family: 'Dela Gothic One', cursive;
+}
 
 /*primo contenitore*/
 
@@ -34,6 +71,30 @@
 
 .first p{
     color: var(--text-color-1);
+    font-size: 50px;
+    text-align: center;
+}
+
+/* seconda sezione */
+
+.second{
+    background-color: var(--text-color-2);
+}
+
+.second p{
+    color: var(--text-color-1);
+    font-size: 50px;
+    text-align: center;
+}
+
+/* terza sezione */
+
+.third{
+    background-color: var(--text-color-1);
+}
+
+.third p{
+    color: var(--text-color-2);
     font-size: 50px;
     text-align: center;
 }
